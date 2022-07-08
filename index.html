@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyFB</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="flex">
+        <div class="svg">
+            <img src="facebook.svg" alt="">
+
+            <h2>Facebook helps you connect and share with the people in your life.
+            </h2>
+
+        </div>
+        <div class="logFrame">
+            <form action="" method="post" class="form-fb">
+                <input class="inputs" type="text" id="username" name="username" placeholder="Email or phone number">
+                <div class="pass">
+                    <!-- <label for="password"></label> -->
+                    <input class="inputs" id="password" type="password" name="password" placeholder="Password">
+                    <i class="bi bi-eye-slash" id="togglePassword"></i>
+                </div>
+                <button value="" class="inputs buttons" name="login" type="submit" id="btn-login">Log
+                    In</button>
+                <a class="inputs" id="fgtpwd"
+                    href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0"
+                    target="_blank">Forgotten password?</a>
+                <hr>
+                <button value="" class="inputs buttons" name="account" type="submit" id="btn-account">Create
+                    new
+                    account</button>
+            </form>
+            <div><a href="https://www.facebook.com/pages/create/?ref_type=registration_form" target="_blank"
+                    id="page">Create a
+                    Page </a>for a celebrity, brand or business.</div>
+        </div>
+
+
+
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
